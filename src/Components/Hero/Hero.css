@@ -41,7 +41,7 @@
     position: relative;
     padding-bottom: 2rem;
     padding-top: 6rem;
-    font-family: fantasy;
+    font-family: 'Times New Roman';
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* subtle shadow for extra bold look */
     letter-spacing: 1px; /* optional: adds spacing for more presence */
   }
