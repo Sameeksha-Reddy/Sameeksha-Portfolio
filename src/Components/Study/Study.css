@@ -1,0 +1,99 @@
+.study-container {
+    padding: 8rem 2rem 4rem;
+    background-color: #fdf6ef; /* Light beige */
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    color: #5a4633;
+    margin-bottom: 3rem;
+    font-weight: bold;
+  }
+  
+  .study-card {
+    background-color: #e6ddd5; /* Soft beige */
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 1.5rem auto;
+    max-width: 85%;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .study-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .university-logo {
+    width: 200px;  /* Set logo size */
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .university-name {
+    font-size: 2.5rem;
+    color: #3f3230; /* Dark brown */
+    font-weight: bold;
+    margin: 0.5rem 0;
+    text-align: left;
+  }
+  
+  .degree {
+    font-size: 2.1rem;
+    color: #513721; /* Lighter brown */
+    margin: 0.5rem 0;
+    text-align: left;
+  }
+  
+  .location {
+    font-size: 1.7rem;
+    color: #66452a; /* Even lighter brown */
+    margin: 0.5rem 0;
+    text-align: left;
+  }
+  
+  .cgpa {
+    font-size: 1.5rem;
+    color: #8b6d4e;
+    margin: 0.5rem 0;
+    text-align: left;
+    border-bottom: 2px solid #d1b8a3; /* Light beige brown color for the thin line */
+    padding-bottom: 1rem; /* Add some space below the line */
+    margin-bottom: 1rem;
+  }
+  
+  .courses {
+    font-size: 1.2rem;
+    color: #513721;
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .study-container {
+      padding-top: 5rem;
+      padding-bottom: 3rem;
+    }
+  
+    .study-card {
+      padding: 1.5rem;
+    }
+  
+    .university-name {
+      font-size: 2rem;
+    }
+  
+    .degree {
+      font-size: 1.6rem;
+    }
+  
+    .location,
+    .cgpa,
+    .courses {
+      font-size: 1rem;
+    }
+  }
+  

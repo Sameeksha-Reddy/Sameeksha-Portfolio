@@ -1,0 +1,167 @@
+.hero {
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 10%;
+  min-height: 100vh; /* Ensures the hero section occupies full screen height */
+  background-color: #f5f5f5; /* Light beige background */
+}
+
+.hero1{
+    display: flex;
+}
+
+.hero_img {
+    padding-top: 5rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+}
+
+.hero_img img {
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+    box-shadow: 0 8px 15px #8d7b68;
+    animation: float 4s ease-in-out infinite;
+    border: 5px solid #85644d;
+}
+
+.my_text {
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 55%; 
+}
+
+.my_name {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #85644d;
+    text-align: center;
+    position: relative;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* subtle shadow for extra bold look */
+    letter-spacing: 1px; /* optional: adds spacing for more presence */
+  }
+  
+
+.my_name::before,
+.my_name::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  border-bottom: 3px solid #ccc;
+  transform: translateY(-50%);
+}
+
+.my_name::before {
+  left: -20%;
+}
+
+.my_name::after {
+  right: -20%;
+}
+
+.my_para {
+    color: #66452a;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    text-align: justify; /* Justify the text */
+    max-width: 90%;
+    padding: 1rem; /* Add some space around the text */
+    line-height: 1.6; /* Adjust line height for better readability */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Light shadow behind the text */
+    transition: transform 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for hover effects */
+    padding-top: 7rem;
+  }
+  
+  .my_para:hover {
+    transform: translateY(-5px); /* Slight "pop" effect */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+  }
+  
+
+.contact-boxH {
+  margin-top: 2rem;
+}
+
+.email-linkH {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.icon-sectionH {
+  display: flex;
+  gap: 30px;
+  margin-top: 1rem;
+}
+
+.iconH {
+  font-size: 30px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.iconH:hover {
+  color: #007bff;
+}
+
+@media screen and (max-width: 1040px) {
+  .hero {
+    flex-direction: column;
+    padding: 5rem 2rem;
+    align-items: center;
+  }
+
+  .hero_img {
+    padding-left: 0;
+    padding-top: 20vh;
+}
+
+.hero_img img {
+    width: 35vh;
+    height: 35vh;
+}
+
+
+  .my_name {
+    font-size: 2rem;
+  }
+
+  .my_para {
+    text-align: center;
+    margin-top: 1rem;
+    max-width: 100%;
+  }
+
+  .contact-boxH {
+    text-align: center;
+  }
+
+  .icon-sectionH {
+    justify-content: center;
+  }
+}
+
+@keyframes float {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
