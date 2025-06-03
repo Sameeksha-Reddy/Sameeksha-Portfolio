@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sameeksha-Portfolio/static/css/main.5fd44961.css",
-    "main.js": "/Sameeksha-Portfolio/static/js/main.d4ce8a96.js",
+    "main.js": "/Sameeksha-Portfolio/static/js/main.48b717b4.js",
     "static/media/ssdi9.png": "/Sameeksha-Portfolio/static/media/ssdi9.559235c6f0a7d97ff6aa.png",
     "static/media/Profile_Picture.png": "/Sameeksha-Portfolio/static/media/Profile_Picture.21053634de7c7f7fc93e.png",
     "static/media/ssdi4.png": "/Sameeksha-Portfolio/static/media/ssdi4.63fa7bb5ab2b2cba61e5.png",
@@ -45,10 +45,10 @@
     "static/media/mba1.png": "/Sameeksha-Portfolio/static/media/mba1.5870f398cbbfe190590f.png",
     "index.html": "/Sameeksha-Portfolio/index.html",
     "main.5fd44961.css.map": "/Sameeksha-Portfolio/static/css/main.5fd44961.css.map",
-    "main.d4ce8a96.js.map": "/Sameeksha-Portfolio/static/js/main.d4ce8a96.js.map"
+    "main.48b717b4.js.map": "/Sameeksha-Portfolio/static/js/main.48b717b4.js.map"
   },
   "entrypoints": [
     "static/css/main.5fd44961.css",
-    "static/js/main.d4ce8a96.js"
+    "static/js/main.48b717b4.js"
   ]
 }
