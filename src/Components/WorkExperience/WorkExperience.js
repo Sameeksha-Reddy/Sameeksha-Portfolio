@@ -57,7 +57,7 @@ const WorkExperience = () => {
         <div className="company-name">Ermin Automotive</div>
         <div className="position">Front-end Flutter Developer</div>
         <div className="location">Hyderabad, India</div>
-        <div className="time-frame">April 2021 - June 2021</div>
+        <div className="time-frame">Jan 2021 - June 2021</div>
         <div className="exp">
         • Worked in a team-oriented environment and crafted an intuitive user interface to solve complex problems.<br />
         • Streamlined the development process and enhanced user engagement and customer experience.<br />

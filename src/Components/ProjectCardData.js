@@ -16,14 +16,14 @@ const ProjectCardData = [
     {
         imgsrc: Mba,
         title: "Budget Management System",
-        skills:"Skills: Flutter, Dart, MySQL, Figma",
+        skills:"Skills: Flutter, Dart, Firebase, Figma",
         text: 'To track expenditure and income in real time, dynamically. To visually analyze insights,key results,budget in the form of charts & statistics. To help users draw data oriented decisions faster.',
     },
 
     {
         imgsrc: Hma,
         title: "Hotel Management Application",
-        skills:"Skills: Flutter, Dart, MySQL, Figma",
+        skills:"Skills: Flutter, Dart, Firebase, Figma",
         text: 'User friendly interface. All the customers and office staff can access all the features with ease. Makes work more efficient. Comfortable to work with.',
     },
 
